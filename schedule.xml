@@ -1,16 +1,37 @@
-<event>
-        <title>Events</title>
-        <search>
-          <query>source="events.csv" sourcetype="csv"</query>
-        </search>
-        <option name="count">10</option>
-        <option name="list.drilldown">full</option>
-        <option name="list.wrap">1</option>
-        <option name="maxLines">5</option>
-        <option name="raw.drilldown">full</option>
-        <option name="rowNumbers">0</option>
-        <option name="table.drilldown">all</option>
-        <option name="table.wrap">1</option>
-        <option name="type">list</option>
-        <fields>[]</fields>
-</event>
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <item>
+    <title>
+      <text>Chrome</text>
+    </title>
+    <label>
+      <name>New!</name>
+      <color>#ff2015</color>
+    </label>
+    <description>40327 visits</description>
+  </item>
+  <item>
+    <title>
+      <text>Safari</text>
+    </title>
+    <description>11577 visits</description>
+  </item>
+  <item>
+    <title>
+      <text>Firefox</text>
+    </title>
+    <description>10296 visits</description>
+  </item>
+  <item>
+    <title>
+      <text>Internet Explorer</text>
+    </title>
+    <description>3587 visits</description>
+  </item>
+  <item>
+    <title>
+      <text>Opera</text>
+    </title>
+    <description>499 visits</description>
+  </item>
+</root>
